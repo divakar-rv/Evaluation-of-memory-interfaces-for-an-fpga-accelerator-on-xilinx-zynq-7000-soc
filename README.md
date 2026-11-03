@@ -1,0 +1,2 @@
+# Evaluation-of-memory-interfaces-for-an-fpga-accelerator-on-xilinx-zynq-7000-soc
+This project compares three ways of holding data for an FPGA accelerator on a Digilent ZedBoard (Zynq-7000 XC7Z020): BRAM, LUTRAM and external DDR reached through the Zynq Processing System. The application is a 4 x 4 matrix multiplication written with Vitis HLS. An ARM Cortex-A9 software version is used as the baseline.
